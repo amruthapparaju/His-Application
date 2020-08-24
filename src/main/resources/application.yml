@@ -10,7 +10,7 @@ spring:
     show-sql: true
   mail:
     host: smtp.gmail.com
-    password: apparaju@123123
+    password: a@123123
     port: 587
     properties:
       mail:
@@ -26,4 +26,5 @@ spring:
     view:
       prefix: /WEB-INF/view/
       suffix: .jsp
-server:  port: 1212
+server:
+  port: 1212
