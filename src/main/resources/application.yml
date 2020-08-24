@@ -1,0 +1,29 @@
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: oracle123
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: project
+  jpa:
+    format-sql: true
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: apparaju@123123
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+          timeout: 5000
+          writetimeout: 5000
+    username: "apparajuamruth@gmail.com\t"
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+server:  port: 1212
