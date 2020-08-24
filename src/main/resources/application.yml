@@ -21,7 +21,7 @@ spring:
             enable: true
           timeout: 5000
           writetimeout: 5000
-    username: "apparajuamruth@gmail.com\t"
+    username: "@gmail.com\t"
   mvc:
     view:
       prefix: /WEB-INF/view/
